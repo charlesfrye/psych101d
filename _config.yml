@@ -13,3 +13,5 @@ github_username:  charlesfrye
 
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-minimal
