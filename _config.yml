@@ -5,9 +5,9 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title: "PSYCH101-D"
-url: "https://charlesfrye.github.io/psych101d-demo"
-interact: "http://datahub.berkeley.edu/user-redirect/interact?account=charlesfrye&repo=psych101d-demo&branch=master&path=content/"
-binder: "https://mybinder.org/v2/gh/charlesfrye/psych101d-demo/master?filepath=content/"
+url: "https://charlesfrye.github.io/psych101d"
+interact: "http://datahub.berkeley.edu/user-redirect/interact?account=charlesfrye&repo=psych101d&branch=master&path=content/"
+binder: "https://mybinder.org/v2/gh/charlesfrye/psych101d/master?filepath=content/"
 
 github_username:  charlesfrye
 
