@@ -2,8 +2,7 @@
     "name": "Lab 00",
     "endpoint": "cal/psych101d/fa19/lab00",
     "src": [
-        "lab00.ipynb",
-	"figs/go_bears.png"
+        "lab00.ipynb"
     ],
     "tests": {
         "ok/tests/q*.py": "ok_test"
