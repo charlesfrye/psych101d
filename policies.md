@@ -31,7 +31,7 @@ Anonymity is meant to enable shame- and shyness-free speech, not irresponsibilit
 We will do our best to respond in a timely fashion (within 24 hours); however we cannot guarantee this if you email in the evening or over the weekend.
 - Please also make sure that you cannot answer the question on your own (e.g. in the syllabus, using Google) before emailing us.
 - For larger-scale questions that cannot be resolved quickly and easily over Piazza or via email (e.g. conceptual questions about course material), please come to office hours.
-- Check bCourses often for announcements and changes to the schedule, make sure your email address affiliated with bCourses works, and make sure your notifications are turned on for this course as we will often make announcements as a way of communicating with you. It is your responsibility to keep up with course communication.
+- Check Piazza often for announcements and changes to the schedule, make sure your email address affiliated with Piazza works, and make sure your notifications are turned on for this course as we will often make announcements as a way of communicating with you. It is your responsibility to keep up with course communication.
 
 ## Special Accommodations
 If you require special accommodations for this class, please let us know as soon as possible.
