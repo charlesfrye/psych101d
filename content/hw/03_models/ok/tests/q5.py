@@ -46,7 +46,7 @@ test = {
                 }
             ],
             "setup": r"""
-            >>> root_samples = util.sample_from(root_model, draws=1000, chains=1, progressbar=False)
+            >>> root_samples = util.sample_from(root_model, draws=1000, chains=1)
             >>> root_df = util.samples_to_dataframe(root_samples)
             >>> attacker_mean_estimate = 2.12
             >>> defender_mean_estimate = 0.87

@@ -18,7 +18,7 @@ test = {
                 }
             ],
             "setup": r"""
-            >>> max_samples = util.sample_from(max_model, draws=2, n_init=0, tune=0, chains=1, progressbar=False)""",
+            >>> max_samples = util.sample_from(max_model, draws=20, n_init=0, tune=0, chains=1)""",
             "teardown": r"""
             >>> del max_samples""",
             "type": "doctest"}]

@@ -29,7 +29,7 @@ test = {
                 }
             ],
             "setup": r"""
-            >>> root_samples = util.sample_from(root_model, draws=500, chains=1, progressbar=False)
+            >>> root_samples = util.sample_from(root_model, draws=500, chains=1)
             >>> root_df = util.samples_to_dataframe(root_samples)
             >>> root_mean_estimates = [2.13, 0.88]
             >>> root_sem_estimate = np.sqrt(0.86 / 500)

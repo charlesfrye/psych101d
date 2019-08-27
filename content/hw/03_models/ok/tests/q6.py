@@ -18,7 +18,7 @@ test = {
                 }
             ],
             "setup": r"""
-            >>> sec_caff_samples = util.sample_from(second_caffeine_model, draws=1000, chains=1, progressbar=False)
+            >>> sec_caff_samples = util.sample_from(second_caffeine_model, draws=1000, chains=1)
             >>> sec_caff_df = util.samples_to_dataframe(sec_caff_samples)
             >>> alertness = sec_caff_df["alertness_score"]
             >>> no_caff_selector = sec_caff_df["has_caffeine"] == 0.0

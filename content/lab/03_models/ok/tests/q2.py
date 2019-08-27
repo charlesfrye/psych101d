@@ -34,7 +34,7 @@ test = {
                 }
             ],
             "setup": r"""
-            >>> gs1_samples = util.sample_from(greatsword_plusone_model, draws=1000, chains=1, progressbar=False)
+            >>> gs1_samples = util.sample_from(greatsword_plusone_model, draws=100, chains=10)
             >>> gs1_df = util.samples_to_dataframe(gs1_samples)
             >>> damage_on_hits = gs1_df[gs1_df.attack_hit].total_damage
             >>> gs1_hit = 0.35
