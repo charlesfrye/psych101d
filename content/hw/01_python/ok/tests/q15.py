@@ -34,7 +34,7 @@ test = {
                     >>> all([soln == answr for soln, answr in zip(divisible_seventeen_soln, divisible_seventeen)])
                     True
                     >>> ## Don't go beyond what was asked for
-                    >>> divisible_seventeen[-1] < 1000
+                    >>> divisible_seventeen[-1] == 986
                     True
                     """,
                     "hidden": False,

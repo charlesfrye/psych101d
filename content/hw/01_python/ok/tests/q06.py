@@ -9,10 +9,10 @@ test = {
                     >>> ## Did you define the right variable?
                     >>> "make_times_k" in globals().keys()
                     True
-                    >>> ## Make sure it's a function
+                    >>> ## Is that variable a function?
                     >>> callable(make_times_k)
                     True
-                    >>> ## Make sure it returns a function
+                    >>> ## Does that function return a function?
                     >>> callable(make_times_k(random_ints[0]))
                     True
                     """,
@@ -21,7 +21,7 @@ test = {
                 },
                 {
                     "code": r"""
-                    >>> ## Does the variable have the right value
+                    >>> ## Does it return the right values?
                     >>> all([make_times_k(k)(x) == k * x for k, x in zip(2 * random_ints, random_inputs)])
                     True
                     """,

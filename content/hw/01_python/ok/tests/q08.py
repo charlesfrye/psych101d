@@ -15,6 +15,9 @@ test = {
                     >>> ## Does it have the right type?
                     >>> isinstance(first1k, list)
                     True
+                    >>> ## Does it have enough entries?
+                    >>> len(first1k)
+                    1001
                     """,
                     "hidden": False,
                     "locked": False

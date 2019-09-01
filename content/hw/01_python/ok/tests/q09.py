@@ -15,11 +15,14 @@ test = {
                     >>> ## Do its contents have the right type?
                     >>> isinstance(letters_and_index[0], list)
                     True
-                    >>> ## Do its contents have the right type?
+                    >>> ## Do its contents' contents have the right type?
                     >>> isinstance(letters_and_index[0][0], str)
                     True
                     >>> isinstance(letters_and_index[0][1], int)
                     True
+                    >>> ## Does it have the right number of entries?
+                    >>> len(letters_and_index)
+                    26
                     """,
                     "hidden": False,
                     "locked": False

@@ -9,7 +9,7 @@ test = {
                     >>> ## Did you define the right variable?
                     >>> "is_one" in globals().keys()
                     True
-                    >>> ## Make sure it's a function
+                    >>> ## Is that variable a function?
                     >>> callable(is_one)
                     True
                     """,

@@ -19,17 +19,18 @@ test = {
                 {
                     "code": r"""
                     >>> ## Does it work on the provided case?
-                    >>> sandwicher = safely_make_sandwich(Sandwicher(), ["peanut butter", "jelly", "peanut butter"])
+                    >>> sandwicher = Sandwicher()
+                    >>> safely_make_sandwich(sandwicher, ["peanut butter", "jelly", "peanut butter"])
                     bread
                     peanut butter
                     jelly
                     peanut butter
                     bread
-                    >>> sandwicher = safely_make_sandwich(sandwicher, ["toast"])
+                    >>> safely_make_sandwich(sandwicher, ["toast"])
                     bread
                     toast
                     bread
-                    >>> sandwicher = safely_make_sandwich(sandwicher, [])
+                    >>> safely_make_sandwich(sandwicher, [])
                     bread
                     bread
                     >>> ## Did you use the sandwicher?

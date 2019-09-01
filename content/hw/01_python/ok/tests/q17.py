@@ -30,7 +30,7 @@ test = {
                     >>> ## The first thing after 0 should be an 'x'
                     >>> divisible_seventeen_with_xs[1]
                     'x'
-                    >>> ## The result should have a specific length. Don't forget Python indexing!
+                    >>> ## The result should have a specific length. Don't forget Python indexing conventions!
                     >>> len(divisible_seventeen_with_xs) == 1001
                     True
                     >>> ## Does the variable have the right value

@@ -9,8 +9,12 @@ test = {
                     >>> ## Did you define the right variable?
                     >>> "conch_st_residents" in globals().keys()
                     True
+                    >>> ## Does it have the right type?
                     >>> isinstance(conch_st_residents, list)
                     True
+                    >>> ## Does it have the right number of entries?
+                    >>> len(conch_st_residents)
+                    3
                     """,
                     "hidden": False,
                     "locked": False
