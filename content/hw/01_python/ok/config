@@ -1,0 +1,15 @@
+{
+    "name": "Homework 01",
+    "endpoint": "cal/psych101d/fa19/hw01",
+    "src": [
+        "hw01.ipynb"
+    ],
+    "tests": {
+        "ok/tests/q*.py": "ok_test"
+    },
+    "protocols": [
+       "file_contents",
+       "grading",
+       "backup"
+    ]
+}
