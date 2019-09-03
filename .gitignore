@@ -121,6 +121,10 @@ dmypy.json
 # linted notebooks
 *.lint.ipynb
 
+# ok autograder
+.ok_messages
+.ok_storage
+
 # internal-only notebooks
 *_soln.ipynb
 *_draft.ipynb
