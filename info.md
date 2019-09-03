@@ -6,7 +6,9 @@ permalink: /info/
 
 ## Course Staff
 - Instructor: Charles Frye (he/him/his, `charlesfrye@berkeley.edu`)
+    - Office Hours: M 1 - 2 pm, Evans 552
 - GSI: Everett Wetchler (he/him/his, `wetchler@berkeley.edu`)
+    - Office Hours: TBA
 
 ## Locations & Times
 **Lectures** (80 min, 2/week)
