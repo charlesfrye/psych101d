@@ -13,9 +13,9 @@ test = {
                     >>> list(sorted(clean_beach.columns))
                     ['log10_turbidity', 'name', 'time', 'turbidity', 'water_temp', 'year']
                     >>> ## are the year values correct?
-                    >>> np.nanmin(clean_beach.year) > 2013
+                    >>> np.nanmin(clean_beach.year) == 2014
                     True
-                    >>> np.nanmax(clean_beach.year) < 2016
+                    >>> np.nanmax(clean_beach.year) == 2015
                     True
                     """,
                     "hidden": False,
