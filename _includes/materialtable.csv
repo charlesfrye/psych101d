@@ -4,3 +4,5 @@ idx,category,date,path,title
 3,lab,09/20,lab/03_models,Lab 03 - Models & Monsters
 4,lab,08/30,lab/00_welcome,Lab 00 - Getting to Know Jupyter and OK
 5,lec,08/28,lec/00_welcome,Lec 00 - Welcome
+6,hw,09/09,hw/03_models,Homework 01 - Python Drills
+7,lab,09/05,lab/03_models,Lab 01 - Visualize Munge Repeat
