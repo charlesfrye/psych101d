@@ -5,5 +5,5 @@ idx,category,date,path,title
 4,lab,08/30,lab/00_welcome,Lab 00 - Getting to Know Jupyter and OK
 5,lec,08/28,lec/00_welcome,Lec 00 - Welcome
 6,hw,09/09,hw/01_python,Homework 01 - Python Drills
-7,lab,09/06,lab/03_models,Lab 01 - Visualize Munge Repeat
+7,lab,09/06,lab/01_python,Lab 01 - Visualize Munge Repeat
 5,lec,09/04,lec/01_python,Lec 01 - Python and Pandas and Plots
