@@ -12,7 +12,7 @@ test = {
                     >>> "atten_solu_group_means" in globals().keys()
                     True
                     >>> ## Do they have the right types?
-                    >>> isinstance(expt_groupby_atten, pd_groupby.DataFrameGroupBy)
+                    >>> isinstance(expt_groupby_atten_solu, pd_groupby.DataFrameGroupBy)
                     True
                     >>> isinstance(atten_solu_group_means, pd.DataFrame)
                     True

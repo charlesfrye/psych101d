@@ -38,7 +38,7 @@ test = {
             ],
             "setup": r"""
             >>> sample = pd.Series(np.random.normal(size=250))
-            >>> left_side, right_side = sample.quantile([0.05, 0.95])
+            >>> left_side, right_side = sample.quantile([0.025, 0.975])
             >>> ## the above interval will contain 0 with probability one in 4e11
             >>> eps = 1e-5
             """,
