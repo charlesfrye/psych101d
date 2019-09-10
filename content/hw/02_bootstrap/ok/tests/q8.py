@@ -14,7 +14,7 @@ test = {
                     >>> ## Do they have the right types?
                     >>> isinstance(expt_groupby_atten_solu, pd_groupby.DataFrameGroupBy)
                     True
-                    >>> isinstance(atten_solu_group_means, pd.DataFrame)
+                    >>> isinstance(atten_solu_group_means, pd.Series)
                     True
                     """,
                     "hidden": False,
@@ -28,7 +28,7 @@ test = {
                     >>> ("focused", 3) in expt_groupby_atten_solu.groups.keys()
                     True
                     >>> ## Are the values approximately correct?
-                    >>> list(sorted(atten_solu_group_means["score"]))
+                    >>> list(sorted(atten_solu_group_means.values))
                     [4.0, 4.95, 6.4, 6.7, 6.7, 7.0]
                     """,
                     "hidden": False,
@@ -37,10 +37,6 @@ test = {
             ],
             "setup": r"""
             >>> import pandas.core.groupby.groupby as pd_groupby
-            >>> sample = pd.Series(np.random.normal(size=250))
-            >>> left_side, right_side = sample.quantile([0.05, 0.95])
-            >>> # the above interval will contain 0 with probability one in 4e11
-            >>> eps = 1e-5
             """,
             "teardown": r"""
             """,
