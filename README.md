@@ -34,7 +34,7 @@ where you can review lectures, complete homeworks and labs, and get scores on au
 
 ### Berkeley Users
 
-The links on the left-hand side, which look like
+The links which look like
 ![interact]({{site.url}}/content/shared/img/interact_badge.svg),
 are for use by **Berkeley-affiliated folks**.
 After logging in with your CalNet ID,
@@ -45,7 +45,7 @@ _If you've never used this service_, check out [this video](https://data.berkele
 
 ### Non-Berkeley Users
 
-The links on the right-hand side, which look like
+The links which look like
 ![Binder](https://mybinder.org/badge_logo.svg),
 are for use by **non-Berkeley-affiliated folks**,
 i.e. anyone without a CalNet ID.
