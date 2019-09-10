@@ -56,6 +56,11 @@ This breakdown is subject to change, but the plan is
 
 Note that exams are together worth under a third of the final grade.
 
+The lowest graded homework and lab will be dropped from the average.
+
+Late work is accepted, with a 10% penalty applying at the deadline
+and every 24 hours after that point.
+
 ## Important Dates
 
 - Final Exam: 12/20, 3 - 6pm
