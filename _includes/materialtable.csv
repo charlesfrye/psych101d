@@ -9,4 +9,5 @@ idx,category,date,path,title
 8,lec,09/04,lec/01_python,Lec 01 - Python and Pandas and Plots
 9,lec,09/09,lec/02_bootstrap,Lec 02 - Probability and Statistics
 10,hw,09/16,hw/02_bootstrap,Homework 02 - Descriptive Statistics and Bootstrapping
-10,lab,09/13,lab/02_bootstrap,Lab 02 - Bootstrap Estimation for Personality Data
+11,lab,09/13,lab/02_bootstrap,Lab 02 - Bootstrap Estimation for Personality Data
+12,lec,09/23,lec/04_parameters,Lec 04 - Parameters and Priors and Posteriors
