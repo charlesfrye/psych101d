@@ -3,17 +3,32 @@ import pandas as pd
 import pymc3 as pm
 import theano.tensor as tt
 
+
 def samples_to_dataframe(samples, drop_internal=False):
-    chains = samples.chains
-    chainwise_dfs = [pd.DataFrame([sample for sample in samples._straces[chain]])
-                     for chain in chains]
-    full_df = pd.concat(chainwise_dfs)
+    if isinstance(samples, pm.backends.base.MultiTrace):
+        chains = samples.chains
+        chainwise_dfs = [pd.DataFrame([sample for sample in samples._straces[chain]])
+                         for chain in chains]
+        full_df = pd.concat(chainwise_dfs)
+    elif isinstance(samples, dict):
+        full_df = sample_dict_to_dataframe(samples)
+    else:
+        raise TypeError(f"samples must be dict or MultiTrace, but was {type(samples)}")
+
     if drop_internal:
         internal_vars = [column for column in full_df.columns
                          if column.startswith("_") or column.endswith("__")]
         full_df = full_df.drop(columns=internal_vars)
 
     return full_df
+
+
+def sample_dict_to_dataframe(sample):
+    for key in sample.keys():
+        if isinstance(sample[key], np.ndarray):
+            sample[key] = list(sample[key])
+
+    return pd.DataFrame(sample)
 
 
 def standardize(data, true_stat, standard_error, stat_func):
