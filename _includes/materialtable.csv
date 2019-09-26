@@ -11,3 +11,4 @@ idx,category,date,path,title
 10,hw,09/16,hw/02_bootstrap,Homework 02 - Descriptive Statistics and Bootstrapping
 11,lab,09/13,lab/02_bootstrap,Lab 02 - Bootstrap Estimation for Personality Data
 12,lec,09/23,lec/04_parameters,Lec 04 - Parameters and Priors and Posteriors
+13,lab,09/27,lab/04_parameters,Lab 04 - Comparing Bootstrap and Model-Based Sampling

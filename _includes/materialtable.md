@@ -1,5 +1,6 @@
 Category | Date  | Links               | Title
 -------- | ----- | ------------------- |:------
+lab | 09/27 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}lab/04_parameters) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}lab/04_parameters) | Lab 04 - Comparing Bootstrap and Model-Based Sampling
 lec | 09/23 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}lec/04_parameters) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}lec/04_parameters) | Lec 04 - Parameters and Priors and Posteriors
 lab | 09/20 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}lab/03_models) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}lab/03_models) | Lab 03 - Models & Monsters
 hw | 09/20 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}hw/03_models) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}hw/03_models) | Homework 03 - Models IRL
