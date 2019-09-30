@@ -10,6 +10,8 @@ test = {
                     >>> ## are behaving as expected, using the analytic value of the posterior.
                     >>> ## If you fail this test because it returns False,
                     >>> ## your model is mis-specified or you are sampling incorrectly.
+                    >>> ## If you have passed the tests in q1, then your setting of the observed
+                    >>> ## value or the manner you are drawing samples is likely incorrect.
                     >>> utils.bernoulli.check_samples(posterior_samples["null_true"], posterior)
                     True
                     """,

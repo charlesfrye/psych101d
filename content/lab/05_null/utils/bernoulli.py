@@ -7,11 +7,11 @@ def check_samples(samples, true_p, n_sigma=8):
     and a bound in terms of n_sigma multiples of the standard error of the mean
     """
     var = (true_p) * (1 - true_p)  # variance of a bernoulli
-    sem =  np.sqrt(var / len(samples))  # standard error of the mean, normal approximation
-    bound = n_sigma * sem  # size of largest expected error  
-    
+    sem = np.sqrt(var / len(samples))  # standard error of the mean, normal approximation
+    bound = n_sigma * sem  # size of largest expected error
+
     error = np.abs(samples.mean() - true_p)
-    
+
     return error < bound
 
 
@@ -23,4 +23,4 @@ def posterior_p(alpha, prior, power, positive_result=True):
     if positive_result:
         return alpha * prior / (alpha * prior + power * (1 - prior))
     else:
-        return (1 - alpha) *  prior / ((1 - alpha) * prior + (1 - power) * (1 - prior))
+        return (1 - alpha) * prior / ((1 - alpha) * prior + (1 - power) * (1 - prior))
