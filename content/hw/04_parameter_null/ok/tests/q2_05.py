@@ -26,10 +26,11 @@ test = {
             >>> true_var = true_sd ** 2
             >>> group_size = 10
             >>> n_samples =  len(flat_samples)
+            >>> assert n_samples >=  10000
             >>> sem = bound.compute_sem(true_var, n_samples)
-            >>> sem_bound = 8 * sem
+            >>> sem_bound = 5 * sem
             >>> sev = bound.compute_sev(true_var, n_samples)
-            >>> sev_bound = 8 * sev
+            >>> sev_bound = 5 * sev
             """,
             "teardown": "",
             "type": "doctest"}]

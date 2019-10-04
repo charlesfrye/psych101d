@@ -50,7 +50,7 @@ test = {
             "setup": """
             >>> ntm_sample_df = neurotransmitter_model_samples_df
             >>> n_samples = len(ntm_sample_df)
-            >>> assert n_samples >= 2000
+            >>> assert n_samples >= 4000
             >>> true_p_0 = np.exp(pm.Poisson.dist(mu=2.25).logp(0).eval())
             >>> true_var_p_0 = true_p_0 * (1 - true_p_0)
             >>> sem_p_0 = bound.compute_sem(true_var_p_0, n_samples)

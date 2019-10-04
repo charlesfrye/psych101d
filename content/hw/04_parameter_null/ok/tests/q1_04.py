@@ -56,7 +56,7 @@ test = {
             "setup": """
             >>> nhst_sample_df = nhst_model_samples_df
             >>> n_samples = len(nhst_sample_df)
-            >>> assert n_samples >= 2000
+            >>> assert n_samples >= 4000
             >>> true_p = 0.2
             >>> true_var_p = (1 - true_p) * true_p
             >>> sem_p_bound = 5 * bound.compute_sem(true_var_p, n_samples)

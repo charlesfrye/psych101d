@@ -27,4 +27,4 @@ def compute_sem(var, n):
 
 
 def compute_sev(var, n):
-    return var * np.sqrt(2 / n)
+    return var * np.sqrt(2 / (n - 1))

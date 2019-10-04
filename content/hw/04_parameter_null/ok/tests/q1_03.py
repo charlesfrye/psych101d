@@ -33,13 +33,13 @@ test = {
             "setup": """
             >>> lsm_sample_df = linear_signal_model_samples_df
             >>> n_samples = len(lsm_sample_df)
-            >>> assert n_samples >= 2000
+            >>> assert n_samples >= 4000
             >>> true_mu_M = 0.0
             >>> true_var_M = 1.25
             >>> sem = bound.compute_sem(true_var_M, n_samples)
-            >>> sem_bound = 8 * sem
+            >>> sem_bound = 5 * sem
             >>> sev = bound.compute_sev(true_var_M, n_samples)
-            >>> sev_bound = 8 * sev
+            >>> sev_bound = 6 * sev   # variance of variance estimator oddly high
             """,
             "teardown": "",
             "type": "doctest"}]
