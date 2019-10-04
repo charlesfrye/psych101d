@@ -14,3 +14,4 @@ idx,category,date,path,title
 13,lab,09/27,lab/04_parameters,Lab 04 - Comparing Bootstrap and Model-Based Sampling
 14,lec,09/30,lec/05_null,Lec 05 - Null Models
 15,lab,10/04,lab/05_null,Lab 05 - Modeling Null Hypothesis Significance Testing
+16,hw,10/14,hw/04_parameter_null,Homework 04 - Parameterized Models and t-Tests
