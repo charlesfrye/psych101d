@@ -128,3 +128,7 @@ dmypy.json
 # internal-only notebooks
 *_soln.ipynb
 *_draft.ipynb
+
+# certain large data files
+content/lec/01_python/data/shakespeare.txt
+content/shared/data/*.csv
