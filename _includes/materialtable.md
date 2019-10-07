@@ -1,6 +1,7 @@
 Category | Date  | Links               | Title
 -------- | ----- | ------------------- |:------
 hw | 10/14 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}hw/04_parameter_null) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}hw/04_parameter_null) | Homework 04 - Parameterized Models and t-Tests
+lec | 10/07 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}lec/06_Bayes) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}lec/06_Bayes) | Lec 06 - Bayesian Inference
 lab | 10/04 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}lab/05_null) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}lab/05_null) | Lab 05 - Modeling Null Hypothesis Significance Testing
 lec | 09/30 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}lec/05_null) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}lec/05_null) | Lec 05 - Null Models
 lab | 09/27 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}lab/04_parameters) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}lab/04_parameters) | Lab 04 - Comparing Bootstrap and Model-Based Sampling
