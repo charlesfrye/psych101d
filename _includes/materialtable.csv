@@ -15,4 +15,4 @@ idx,category,date,path,title
 14,lec,09/30,lec/05_null,Lec 05 - Null Models
 15,lab,10/04,lab/05_null,Lab 05 - Modeling Null Hypothesis Significance Testing
 16,hw,10/14,hw/04_parameter_null,Homework 04 - Parameterized Models and t-Tests
-17,lec,10/07,lec/06_Bayes,Lec 06 - Bayesian Inference
+17,lec,10/07,lec/06_bayes,Lec 06 - Bayesian Inference
