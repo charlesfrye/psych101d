@@ -16,3 +16,4 @@ idx,category,date,path,title
 15,lab,10/04,lab/05_null,Lab 05 - Modeling Null Hypothesis Significance Testing
 16,hw,10/14,hw/04_parameter_null,Homework 04 - Parameterized Models and t-Tests
 17,lec,10/07,lec/06_bayes,Lec 06 - Bayesian Inference
+18,lab,10/11,lab/06_bayes,Lab 06 - Bayesian Inference for Differences of Means
