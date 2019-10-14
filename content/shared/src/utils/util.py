@@ -85,3 +85,9 @@ def to_pymc(var, **kwargs):
 
     Used to avoid imports of theano.tensor in student-facing notebooks."""
     return tt.as_tensor_variable(var, **kwargs)
+
+
+def clean_plates(pgm, color="white"):
+    """Recolors bounding box of plate labels in pgm"""
+    for plate in pgm._plates:
+        plate.bbox["fc"] = color
