@@ -1,5 +1,6 @@
 Category | Date  | Links               | Title
 -------- | ----- | ------------------- |:------
+lab | 10/25 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}lab/07_category_fx) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}lab/07_category_fx) | Lab 07 - Modeling Categorical Effects
 lec | 10/21 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}lec/07_category_fx) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}lec/07_category_fx) | Lec 07 - Categorical Effects Models
 hw | 10/14 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}hw/04_parameter_null) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}hw/04_parameter_null) | Homework 04 - Parameterized Models and t-Tests
 lab | 10/11 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}lab/06_bayes) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}lab/06_bayes) | Lab 06 - Bayesian Inference for Differences of Means
