@@ -1,5 +1,6 @@
 Category | Date  | Links               | Title
 -------- | ----- | ------------------- |:------
+lec | 10/30 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}lec/midterm_review) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}lec/midterm_review) | Review of Modeling Concepts
 lab | 10/25 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}lab/07_category_fx) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}lab/07_category_fx) | Lab 07 - Modeling Categorical Effects
 lec | 10/21 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}lec/07_category_fx) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}lec/07_category_fx) | Lec 07 - Categorical Effects Models
 hw | 10/14 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}hw/04_parameter_null) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}hw/04_parameter_null) | Homework 04 - Parameterized Models and t-Tests
