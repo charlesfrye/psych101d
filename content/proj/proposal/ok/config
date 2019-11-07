@@ -1,0 +1,16 @@
+{
+    "name": "Final Project Proposal",
+    "endpoint": "cal/psych101d/fa19/proposal",
+    "src": [
+        "proposal.ipynb",
+        "data/data.csv"
+    ],
+    "tests": {
+        "ok/tests/dataset_size.py": "ok_test"
+    },
+    "protocols": [
+       "file_contents",
+       "grading",
+       "backup"
+    ]
+}
