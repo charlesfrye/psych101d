@@ -1,6 +1,7 @@
 Category | Date  | Links               | Title
 -------- | ----- | ------------------- |:------
 proj | 11/18 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}proj/proposal) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}proj/proposal) | Project Proposal
+lec | 11/18 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}lec/09_regression) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}lec/09_regression) | Lec 09 - Regression
 lab | 11/18 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}lab/08_multiway) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}lab/08_multiway) | Lab 08 - Multiway Modeling
 lec | 11/06 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}lec/08_multiway) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}lec/08_multiway) | Lec 08 - Multiway Modeling
 lec | 10/30 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}lec/midterm_review) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}lec/midterm_review) | Review of Modeling Concepts
