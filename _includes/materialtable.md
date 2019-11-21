@@ -1,5 +1,6 @@
 Category | Date  | Links               | Title
 -------- | ----- | ------------------- |:------
+lab | 11/25 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}lab/09_regression) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}lab/09_regression) | Lab 09 - Bayesian Linear Regression
 proj | 11/18 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}proj/proposal) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}proj/proposal) | Project Proposal
 lec | 11/18 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}lec/09_regression) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}lec/09_regression) | Lec 09 - Regression
 lab | 11/18 | [![datahub]({{site.url}}/content/shared/img/interact_badge.svg)]({{site.interact}}lab/08_multiway) [![Binder](https://mybinder.org/badge_logo.svg)]({{site.binder}}lab/08_multiway) | Lab 08 - Multiway Modeling

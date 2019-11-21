@@ -24,3 +24,4 @@ idx,category,date,path,title
 23,lec,11/06,lec/08_multiway,Lec 08 - Multiway Modeling
 24,lab,11/18,lab/08_multiway,Lab 08 - Multiway Modeling
 25,lec,11/18,lec/09_regression,Lec 09 - Regression
+26,lab,11/25,lab/09_regression,Lab 09 - Bayesian Linear Regression
