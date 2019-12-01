@@ -63,6 +63,6 @@ and every 24 hours after that point.
 
 ## Important Dates
 
-- Final Exam: 12/20, 3 - 6pm
+- Final Exam: 12/20, 3 - 6 pm, MULF240
 - Midterm Exam: 10/30, 5 - 630 pm in class (tentative)
-- Final Project Presentations: 12/6, 1 - 3 pm in class (tentative)
+- Final Project Presentations: 12/13, 1 - 3 pm in class
