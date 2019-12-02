@@ -27,3 +27,4 @@ idx,category,date,path,title
 26,lab,11/25,lab/09_regression,Lab 09 - Bayesian Linear Regression
 27,hw,12/04,hw/05_linear_models,Homework 05 - Linear Models
 28,lec,11/25,lec/10_linear_models,Lec 10  - Formulas and Linear Models
+29,lec,12/02,lec/11_crossvalidation,Lec 11  - Over-Fitting and Cross-Validation
