@@ -6,7 +6,7 @@ test = {
             "cases": [
                 {
                     "code": r"""
-                    >>> encoded_data = encode_data_oneway_model(test_data, number_groups=3)
+                    >>> encoded_data = encode_data_oneway_model(test_data, 3)
                     >>> # There should be one row for each observation
                     >>> len(encoded_data)
                     4
