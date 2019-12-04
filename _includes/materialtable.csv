@@ -28,3 +28,4 @@ idx,category,date,path,title
 27,hw,12/04,hw/05_linear_models,Homework 05 - Linear Models
 28,lec,11/25,lec/10_linear_models,Lec 10  - Formulas and Linear Models
 29,lec,12/02,lec/11_crossvalidation,Lec 11  - Over-Fitting and Cross-Validation
+30,lec,12/04,lec/12_mcmc,Lec 12  - Under the Hood of pyMC
