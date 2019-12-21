@@ -72,26 +72,6 @@ See instructions below.
 
 ### Local Installation
 
-Clone the repository as normal, then install using
-```
-pip install -r requirements.txt
-```
-in your development environment.
-
-For reasons related to the current computing setup for data science education on Berkeley's campus,
-the `requirements` are strict: versions are specified to the third decimal point
-and Python must be version `3.6.*`.
-This level of specificity typically requires the building of many wheels, some of which have known bugs
-on Python 3.5 or 3.7.
-It is strongly recommended that you perform the above installation in a virtual environment,
-e.g. as provided by Anaconda or virtualenv.
-
-## About the Slides
-
-The `Slides` files in the `lec/` folders are intended for use with
-[RISE](https://github.com/damianavila/RISE),
-a "live-coding" presentation package.
-This is currently not part of `requirements.txt`,
-so the `Slides` files, when accessed via datahub or Binder
-or in an environment based on the `requirements.txt`,
-will be formatted as traditional Jupyter notebooks, rather than as presentations.
+For instructions on local installation, see
+[the GitHub repository](https://github.com/charlesfrye/psych101d)
+where the materials are stored.
